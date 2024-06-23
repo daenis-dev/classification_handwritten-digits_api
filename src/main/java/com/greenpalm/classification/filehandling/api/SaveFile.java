@@ -1,4 +1,4 @@
-package com.greenpalm.classification.filehandling;
+package com.greenpalm.classification.filehandling.api;
 
 import org.springframework.web.multipart.MultipartFile;
 

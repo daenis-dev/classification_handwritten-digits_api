@@ -1,12 +1,13 @@
 package com.greenpalm.classification.integration;
 
+import com.greenpalm.classification.integration.api.GetPredictedDigitForImageFilePath;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
 
 import java.time.Duration;
 
 @Service
-class PredictionService implements GetPrediction {
+class ModelIntegrationService implements GetPredictedDigitForImageFilePath {
 
     @Override
     public String getPredictionFor(String theFilePath) {

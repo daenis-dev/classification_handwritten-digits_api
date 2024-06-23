@@ -1,8 +1,8 @@
-package com.greenpalm.classification.imageclassification;
+package com.greenpalm.classification.imageclassification.api;
 
 import org.springframework.web.multipart.MultipartFile;
 
-public interface ClassifyImage {
+public interface ClassifyImageAsDigit {
 
     String classify(MultipartFile multipartFile);
 }
