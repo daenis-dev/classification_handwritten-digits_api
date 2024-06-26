@@ -4,5 +4,5 @@ import org.springframework.web.multipart.MultipartFile;
 
 public interface ClassifyImageAsDigit {
 
-    String classify(MultipartFile multipartFile);
+    ImageClassification classify(MultipartFile multipartFile);
 }
